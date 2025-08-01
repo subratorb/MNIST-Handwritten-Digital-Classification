@@ -46,5 +46,9 @@ define_model(): Defines the CNN architecture.
 evaluate_model(): Implements k-fold cross-validation.
 ```
 
+# Results 
+<img width="1191" height="627" alt="image" src="https://github.com/user-attachments/assets/98488fc7-b300-4fc9-b8ad-8e4a3b317f2f" />
+
+
 📄 License
 This project is open-sourced under the MIT license.
