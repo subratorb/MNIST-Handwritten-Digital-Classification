@@ -8,7 +8,9 @@ Imports: This section brings in all the necessary Python libraries.
 
 numpy is used for numerical operations, especially with arrays.
 
-sklearn.model_selection.KFold is for splitting the data into training and testing sets for cross-validation.
+``` bash
+sklearn.model_selection.KFold
+``` is for splitting the data into training and testing sets for cross-validation.
 
 tensorflow.keras is the deep learning framework used to build and train the neural network. The specific imports are for loading the MNIST dataset, preparing the labels (to_categorical), and defining the different layers of the CNN (Sequential, Conv2D, MaxPooling2D, etc.).
 
