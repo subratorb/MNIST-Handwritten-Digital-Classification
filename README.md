@@ -9,15 +9,14 @@ Imports: This section brings in all the necessary Python libraries.
 numpy is used for numerical operations, especially with arrays.
 
 ``` bash
-sklearn.model_selection.KFold
-``` is for splitting the data into training and testing sets for cross-validation.
+sklearn.model_selection.KFold ``` is for splitting the data into training and testing sets for cross-validation.
 
-tensorflow.keras is the deep learning framework used to build and train the neural network. The specific imports are for loading the MNIST dataset, preparing the labels (to_categorical), and defining the different layers of the CNN (Sequential, Conv2D, MaxPooling2D, etc.).
+``` bash tensorflow.keras ``` is the deep learning framework used to build and train the neural network. The specific imports are for loading the MNIST dataset, preparing the labels (to_categorical), and defining the different layers of the CNN (Sequential, Conv2D, MaxPooling2D, etc.).
 
 os is a standard library for interacting with the operating system, used later in the script to handle file paths.
 
 
-load_dataset() function: This is the first step of data preparation. It performs two key tasks:
+``` bash load_dataset() ``` function: This is the first step of data preparation. It performs two key tasks:
 
 It loads the MNIST dataset, which contains 60,000 training images and 10,000 test images of handwritten digits.
 
